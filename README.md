@@ -1,4 +1,1 @@
-# Parker_Chef_Dev_Prod
-
-TODO: Enter the cookbook description here.
-
+# Sparta-Chef-Dev-Prod

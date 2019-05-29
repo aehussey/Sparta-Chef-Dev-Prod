@@ -1,4 +1,4 @@
-name 'Parker_Chef_Dev_Prod'
+name 'Packer_Chef_Dev_Prod'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'
