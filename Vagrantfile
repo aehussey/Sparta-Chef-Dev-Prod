@@ -36,6 +36,7 @@ Vagrant.configure("2") do |config|
      app.vm.synced_folder "app", "/home/ubuntu/app"
      app.vm.synced_folder "app/views", "/home/vagrant/views"
      app.vm.synced_folder "app/public", "/home/vagrant/public"
+     app.vm.synced_folder "app/models", "/home/vagrant/models"
      app.vm.provision "chef_solo" do |chef|
        chef.add_recipe "node::default"
        chef.version = "14.12.9"
